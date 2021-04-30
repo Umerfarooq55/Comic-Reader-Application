@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Daily XKCD</string>
+
+    <string name="ui_error_communication">There has been an issue communicating with the server. Please try again later.</string>
+    <string name="ui_error_internal_server_error">There has been an issue communicating with the server</string>
+    <string name="ui_error_unexpected">Something has gone wrong. Please try again.</string>
+    <string name="ui_error_action_retry">Retry</string>
+    <string name="ui_error_request_failed">Something has gone wrong. Please check your input and try again.</string>
+    <string name="ui_error_no_network">There\'s a problem with the network. Please check your connection.</string>
+    <string name="ui_error_invalid_request">Something has gone wrong. Please check your input and try again.</string>
+    <string name="ui_error_not_found">We are sorry but we could not find the requested item.</string>
+    <string name="ui_error_authentication">We are sorry but there has been an issue authenticating your account.</string>
+    <string name="ui_error_authorisation">We are sorry but you are not authorised to view this content.</string>
+    <string name="ui_error_bad_request">Something has gone wrong. Please check your input and try again.</string>
+    <string name="ui_error_payload_too_large">The file you are trying to upload is too large.</string>
+    <string name="ui_error_no_permission">We are sorry but you don\'t have permission to perform this action.</string>
+
+    <string name="ct_swipe_left_arrow">Swipe Left Arrow</string>
+    <string name="ct_swipe_right_arrow">Swipe Right Arrow</string>
+    <string name="ct_comic_strip_image">Comic Strip Image</string>
+
+    <string name="menu_title_search">Search</string>
+    <string name="menu_title_refresh">Refresh</string>
+    <string name="menu_title_share">Share</string>
+    <string name="menu_title_about">About</string>
+
+    <string name="menu_bar_cards">Cards</string>
+    <string name="menu_bar_comics">Comics</string>
+    <string name="menu_bar_favourites">Favourites</string>
+
+    <string name="comic_strip_info">"#%1$s - %2$s\n%3$s"</string>
+    <string name="comic_strip_display_date">"%1$s/%2$s/%3$s"</string>
+    <string name="comic_strip_web_link">"https://xkcd.com/%1$d/"</string>
+
+    <string name="share_title">Share this Comic</string>
+    <string name="share_info">"Hey! Check out this XKCD comic: %1$s - %2$s</string>
+
+    <string name="message_reset_data">Getting the latest comic strip…</string>
+    <string name="message_all_caught_up">All caught up!</string>
+    <string name="message_page_not_found">We are sorry but we could not find the page you are looking for</string>
+
+    <string name="dialog_search_title">Enter a comic ID</string>
+    <string name="dialog_search_hint">1 - %1$s</string>
+    <string name="info_title">About the app</string>
+    <string name="info_message">"This is a fan made app by Michael Fotiadis.
+        \nNot endorsed by or affiliated with XKCD.
+        \nAll rights reserved 2018, 2019"</string>
+    <string name="ct_icon_favourite">Favourite Button</string>
+    <string name="ct_favourite_background">Background Image</string>
+    <string name="favourites_empty">Comic strips you add to favourites will appear on this page.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
