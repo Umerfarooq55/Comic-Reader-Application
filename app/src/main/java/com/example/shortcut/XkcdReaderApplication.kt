@@ -1,15 +1,8 @@
-/*
- * Developed by Michail Fotiadis.
- * Copyright (c) 2018.
- * All rights reserved.
- */
-
 package com.example.shortcut
-
 
 import com.facebook.drawee.backends.pipeline.Fresco
 import com.facebook.stetho.Stetho
-
+import com.example.shortcut.di.DaggerAppComponent
 import com.squareup.leakcanary.LeakCanary
 import dagger.android.AndroidInjector
 import dagger.android.support.DaggerApplication
@@ -27,10 +20,6 @@ class XkcdReaderApplication : DaggerApplication() {
             initStethoscope()
             initToasty()
         }
-    }
-
-    override fun applicationInjector(): AndroidInjector<out DaggerApplication> {
-        TODO("Not yet implemented")
     }
 
     private fun initLeakCanary(): Boolean {
@@ -63,9 +52,13 @@ class XkcdReaderApplication : DaggerApplication() {
 
     private fun initToasty() {
         Toasty.Config.getInstance()
-            .tintIcon(true)
-            .apply()
+                .tintIcon(true)
+                .apply()
     }
 
-
+    override fun applicationInjector(): AndroidInjector<out DaggerApplication> {
+        return DaggerAppComponent.builder()
+                .application(this)
+                .build()
+    }
 }

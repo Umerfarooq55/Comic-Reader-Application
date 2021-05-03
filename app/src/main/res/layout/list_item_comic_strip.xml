@@ -36,7 +36,7 @@
             app:layout_constraintTop_toTopOf="parent"
             tools:text="This is a title"/>
 
-        <com.michaelfotiads.xkcdreader.ui.view.FavouriteImageView
+        <com.example.shortcut.ui.view.FavouriteImageView
             android:id="@+id/icon_favourite"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
