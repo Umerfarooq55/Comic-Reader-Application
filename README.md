@@ -19,7 +19,9 @@ Completed all features
 8: support multiple form factors.
 
 
-Using Tech Stack
+
+
+Tech Stack
 
 Retrofit
 
