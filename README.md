@@ -21,9 +21,14 @@ Completed all features
 
 Using Tech Stack
 
-Retrofir
+Retrofit
+
 Kotlin
+
 RxKotlin
+
 Dagger2
+
 Clean architecture
+
 MVI
